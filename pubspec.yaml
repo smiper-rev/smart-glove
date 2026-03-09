@@ -1,0 +1,28 @@
+name: smart_glove
+description: A Smart Glove application with Bluetooth connectivity and text-to-speech functionality.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.35.4
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.0
+  provider: ^6.1.2
+  rxdart: ^0.27.7
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
